@@ -44,13 +44,17 @@ pip install numpy scipy matplotlib torch scikit-learn
 pip install stable-baselines3 gym
 
 # For GPU acceleration (optional but recommended)
+
 # Install CUDA toolkit and cupy
 pip install cupy-cuda11x  # or appropriate CUDA version
+
 
 # GPU-accelerated (recommended)
 python src/gpu_batch_simulation.py
 
 # CPU baseline (slower)
 python src/cpu_batch_simulation.py
+
 python src/surrogate_model.py
+
 python src/rl_model.py
