@@ -18,15 +18,25 @@ Key Achievements
 🏆 Energy-efficient optimization balancing combustion completeness with operational costs
 
 ├── src/                          # Source code (branch: src)
+
 │   ├── gpu_batch_simulation.py   # CUDA-accelerated batch simulations
+
 │   ├── cpu_batch_simulation.py   # CPU-based simulation baseline
+
 │   ├── surrogate_model.py        # Hybrid ML model (Gradient Boosting + Neural Network)
+
 │   └── rl_model.py               # Actor-Critic PPO implementation
+
 ├── data/                         # Results and visualizations (branch: data)
+
 │   ├── heatmaps/                 # Temperature and concentration distributions
+
 │   ├── training_curves/          # RL convergence plots
+
 │   └── reward_landscapes/        # Policy optimization visualizations
+
 └── documentation/                # Detailed technical report (branch: documentation)
+
     └── technical_report.pdf      # Complete project documentation
 
 # Required packages
