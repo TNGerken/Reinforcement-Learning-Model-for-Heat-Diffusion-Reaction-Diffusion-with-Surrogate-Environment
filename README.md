@@ -2,6 +2,7 @@
 Optimizing aluminum-oxygen combustion processes through physics-based simulation, surrogate modeling, and reinforcement learning control
 
 Project Overview
+
 This project develops an intelligent control system for aluminum combustion reactors using a novel combination of:
 
 Physics-based PDE modeling of reaction-diffusion and heat transfer
